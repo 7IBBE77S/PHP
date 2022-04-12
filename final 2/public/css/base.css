@@ -1,0 +1,67 @@
+
+
+.red {
+    color: red
+}
+
+.cartimg {
+    width: 70px; 
+    height: 60px;
+}
+.geek
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #005ca8;
+   
+    
+}
+footer {
+    color: white;
+  
+    font-family: 'Oxygen';
+    
+}
+
+.LTS {
+    color: #005ca8;
+
+}
+
+.mroboto {
+    font-family: 'roboto';
+    margin: -15px
+}
+
+.mroboto:hover {
+    color: #005ca8;
+}
+
+body,html {
+
+    margin: 0;
+
+
+    grid-template-rows: 1fr auto;
+  }
+  
+  .image {
+    background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.9)),
+        url(/assets/img/Spokane_Color.png);
+    background-position:center;
+
+    
+ 
+
+  
+    background-position: top;
+    background-repeat: no-repeat; 
+
+
+    
+    }
+
+.footer {
+    grid-row-start: 5;
+  grid-row-end: 3;
+}
+
